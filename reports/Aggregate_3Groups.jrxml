@@ -66,17 +66,17 @@
 		<band height="30" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
-				<reportElement style="ColumnHeader" x="0" y="0" width="180" height="30" uuid="6bbeb455-a64f-4ad6-98f4-4344d2a69ced"/>
+				<reportElement style="ColumnHeader" x="0" y="0" width="150" height="30" uuid="6bbeb455-a64f-4ad6-98f4-4344d2a69ced"/>
 				<text><![CDATA[Label]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="60" splitType="Stretch">
+		<band height="30" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.spreadsheet.SpreadsheetLayout"/>
-			<textField>
-				<reportElement style="DataRowElement" x="0" y="0" width="180" height="60" uuid="a06291a4-1652-4d4c-bc69-494233474439"/>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="DataRowElement" x="0" y="0" width="150" height="30" uuid="a06291a4-1652-4d4c-bc69-494233474439" stretchType="RelativeToTallestObject"/>
 				<textFieldExpression><![CDATA["Field"]]></textFieldExpression>
 			</textField>
 		</band>
