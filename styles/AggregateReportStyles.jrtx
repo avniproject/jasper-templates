@@ -18,6 +18,11 @@
 			<pen lineWidth="0.25"/>
 		</box>
 	</style>
+	<style name="DataRowHyperlinkElement" forecolor=" #0000EE" hTextAlign="Center" vTextAlign="Middle" pattern="" isBold="true" isUnderline="true">
+    		<box padding="2">
+    			<pen lineWidth="0.25" lineColor="#0D0303"/>
+    		</box>
+    </style>
 	<style name="DataRowTextElement" style="DataRowElement" hTextAlign="Left" pattern=""/>
 	<style name="DataRowNumericElement" style="DataRowElement" pattern="#,##0.###;(#,##0.###-)"/>
 	<style name="DataRowDerivedPercentageElement" style="DataRowElement" pattern="#,###.00%"/>
