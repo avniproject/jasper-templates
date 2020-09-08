@@ -34,7 +34,7 @@
 		<band height="30" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.spreadsheet.SpreadsheetLayout"/>
-			<textField isStretchWithOverflow="true">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement style="DataRowElement" x="0" y="0" width="150" height="30" uuid="405671b5-c388-4f83-a451-4fc7f70ec7b2" stretchType="RelativeToTallestObject"/>
 				<textFieldExpression><![CDATA["Field"]]></textFieldExpression>
 			</textField>
